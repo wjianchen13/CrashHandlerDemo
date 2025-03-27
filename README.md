@@ -4,7 +4,7 @@
 android 使用Thread.UncaughtExceptionHandler进行全局异常捕获，该接口只有一个方法需要实现：  
 `void uncaughtException(Thread t, Throwable e); `
 文档连接：
-https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.UncaughtExceptionHandler.html
+https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.UncaughtExceptionHandler.html  
 以下是官网文档对于该接口的描述  
 当一个线程即将因未捕获的异常而终止时，Java虚拟机将使用thread.getUncaughtExceptionHandler（）查询该线程的  
 uncaughtException处理程序，并调用该处理程序的uncaughtException方法，将线程和异常作为参数传递。如果一个  
